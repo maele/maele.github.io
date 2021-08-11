@@ -280,7 +280,7 @@ header{
         grid-row: 2;
         text-align: right;
         position: relative;
-        left: -1.5em;
+        left: 8.5em;
         width: calc(100% + 1.5em);
     }
 }
@@ -322,7 +322,7 @@ header{
 @media (min-width: 800px){
     .services{
         display: flex;
-        max-width: 1000px;
+        max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -333,7 +333,7 @@ header{
 }
 
 .about-me{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -389,6 +389,9 @@ header{
 
 .portfolio__item{
     background: var(--clr-light);
+    border-color: var(--clr-dark);
+    border-radius: 15px;
+    border-style: solid;
     overflow: hidden;
 }
 
